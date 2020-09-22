@@ -1,3 +1,31 @@
-article p {
-    color: blue;
+body {
+    background:#19181a ;
+    color:yellow;
+}
+
+article{
+    width: 80%;
+    margin:auto;
+}
+
+.jumbotron{
+   background: #19181a;
+   text-align: center;
+   
+}
+button{
+    background: black;
+    border-radius: 20%;
+}
+a{
+    color:yellow;
+}
+#logo{
+    max-width:100px;
+}
+header h1{
+    display: inline;
+}
+h2{
+    text-align: center;
 }
