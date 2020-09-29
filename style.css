@@ -29,3 +29,13 @@ header h1{
 h2{
     text-align: center;
 }
+
+#quote{
+     font-size: 30px;
+}
+.guides{
+    color:white;
+    border-radius: 0%;
+    border: 2px solid white;
+    width:100%;
+}

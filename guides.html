@@ -4,7 +4,9 @@
         <title>Community Website Service Project</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="guides.js"></script>
     </head>
     <body>
         <div class="jumbotron">
@@ -16,16 +18,18 @@
        
         <nav id="navBar" class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button><a href="index.html">Home</a></button>
-            <button><a href="events.html">Events</a></button>
+            <button><a href="links.html">Links</a></button>
             <button><a href="guides.html">How To Guides</a></button>
-            <button><a href="index.html">Home</a></button>
+            <button><a href="study.html">School And Study Tips</a></button>
         </nav>
         <main>
                 <h2>Guides</h2>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae. Nisl tincidunt eget nullam non nisi. Eget sit amet tellus cras adipiscing enim eu. Sit amet consectetur adipiscing elit pellentesque. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Integer malesuada nunc vel risus. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. In vitae turpis massa sed elementum tempus egestas sed sed. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc.</p>
+                <p>This guides page will teach you how to do some basic and every tasks, such as how  to check your grades and how to change your account password. To use these turorials press the drop down box you would like to view.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae. Nisl tincidunt eget nullam non nisi. Eget sit amet tellus cras adipiscing enim eu. Sit amet consectetur adipiscing elit pellentesque. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Integer malesuada nunc vel risus. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. In vitae turpis massa sed elementum tempus egestas sed sed. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc.</p>
+                <button id="powerSchool" onclick="toggle('powerSchool')" class="guides">How to log into powerschool</button>
+                <button id="password" onclick="toggle('password')" class="guides">How to change account password</button>
+                <button id="email" onclick="toggle('email')" class="guides">How to email a teacher</button>
             </article>
         </main>
         <footer>
